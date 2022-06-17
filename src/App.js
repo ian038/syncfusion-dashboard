@@ -68,13 +68,13 @@ function App() {
                 <Route path="/ecommerce" element={(<Ecommerce />)} /> */}
 
                 {/* pages  */}
-                {/* <Route path="/orders" element={<Orders />} />
-                <Route path="/employees" element={<Employees />} />
-                <Route path="/customers" element={<Customers />} /> */}
+                {/* <Route path="/orders" element={<Orders />} /> */}
+                {/* <Route path="/employees" element={<Employees />} /> */}
+                <Route path="/customers" element={<Customers />} />
 
                 {/* apps  */}
-                {/* <Route path="/kanban" element={<Kanban />} />
-                <Route path="/editor" element={<Editor />} /> */}
+                {/* <Route path="/kanban" element={<Kanban />} /> */}
+                {/* <Route path="/editor" element={<Editor />} /> */}
                 <Route path="/calendar" element={<Calendar />} />
                 <Route path="/color-picker" element={<ColorPicker />} />
 
